@@ -1,0 +1,13 @@
+require("dotenv").config();
+
+module.exports = {
+  WHATSAPP_TOKEN: process.env.WHATSAPP_TOKEN,
+  WHATSAPP_PHONE_NUMBER_ID: process.env.WHATSAPP_PHONE_NUMBER_ID,
+  WHATSAPP_VERIFY_TOKEN: process.env.WHATSAPP_VERIFY_TOKEN,
+  ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
+  YOUR_NAME: process.env.YOUR_NAME || "Nana",
+  YOUR_WHATSAPP_NUMBER: process.env.YOUR_WHATSAPP_NUMBER,
+  PORT: process.env.PORT || 3000,
+  MAX_HISTORY_MESSAGES: 30,
+  REPLY_DELAY_MS: 1500,
+};
